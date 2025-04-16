@@ -4,29 +4,16 @@
 
   /* Paleta de colores Primaria */
 
-  /*--neon: #00ffcc; /* Un Cyan neon brillante, vibrante y llamativo. */
-  /*--oscuro-base: #211e34; /* Un oscuro profundo para el fondo */
-  /*--oscuro-intermedio: #393658; /* Un tono más claro del oscuro */
-  /*--azul-morado: #505680; /* Un azul con toques de morado neon */
-  /*--azul-claro: #768ab2; /* Un azul más claro */
-  /*--rosa-claro: #dd8aa2; /* Un tono de rosa neon por estética */
-  /*--texto: #e6f1ff; /* Blanco para el texto */
-  /*--error: #ff6666; /* Un tono de rosa rojizo para los errores */
-  /*--rojo: #ff3333; /* Un rojo neon intenso */
-  /*--deshabilitado: #3a3a4f; /* Un grisáceo oscuro para elementos deshabilitados */
-  
-  /* Paleta de colores Alternativa */
-
-  --neon: #ffff66; /* Un amarillo neon brillante */
-  --oscuro-base: #0a0a0a; /* Un negro aún más profundo */
-  --oscuro-intermedio: #333333; /* Un gris oscuro */
-  --azul-morado: #b34747; /* Un rojo oscuro con matices morados neon */
-  --azul-claro: #ff704d; /* Un naranja rojizo neon brillante */
-  --rosa-claro: #ffe57f; /* Un amarillo pálido con brillo neon */
-  --texto: #f0f0f0; /* Un gris claro para texto */
-  --error: #ff4d4d; /* Un rojo neon intenso para errores */
-  --rojo: #ff1a1a; /* Un rojo neon aún más brillante y puro */
-  --deshabilitado: #4d4d4d; /* Un gris más oscuro para elementos deshabilitados */
+  --neon: #00ffcc; /* Un Cyan neon brillante, vibrante y llamativo. */
+  --oscuro-base: #211e34; /* Un oscuro profundo para el fondo */
+  --oscuro-intermedio: #393658; /* Un tono más claro del oscuro */
+  --azul-morado: #505680; /* Un azul con toques de morado neon */
+  --azul-claro: #768ab2; /* Un azul más claro */
+  --rosa-claro: #dd8aa2; /* Un tono de rosa neon por estética */
+  --texto: #e6f1ff; /* Blanco para el texto */
+  --error: #ff6666; /* Un tono de rosa rojizo para los errores */
+  --rojo: #ff3333; /* Un rojo neon intenso */
+  --deshabilitado: #3a3a4f; /* Un grisáceo oscuro para elementos deshabilitados */
 }
 
 body {
