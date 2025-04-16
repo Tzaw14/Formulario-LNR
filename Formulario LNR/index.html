@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscripción - Torneo Gamer 2025</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <main>
+    <h1>🎮 Torneo de videojuegos 2025 - Registro Oficial</h1>
+    <form id="formulario-gamer">
+
+      <fieldset>
+        <legend>Información del Jugador</legend>
+
+        <label>Nombre del Jugador o Equipo:
+          <input type="text" id="nombre" maxlength="30" required />
+        </label>
+
+        <label>Email:
+          <input type="email" id="email" required />
+          <span class="feedback" id="feedback-email"></span>
+        </label>
+
+        <label>Foto de Avatar:
+          <input type="file" id="foto" accept="image/png, image/jpeg" required />
+          <div id="preview-foto"></div>
+        </label>
+
+        <label>Nivel de Habilidad:
+          <input type="range" id="nivel" min="1" max="5" step="1" value="3">
+          <span id="nivel-texto">Intermedio</span>
+        </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferencias de Competencia</legend>
+
+        <label>Juegos en los que participa:
+          <div id="juegos">
+            <label><input type="checkbox" class="juego-checkbox" value="Fortnite" /> Fortnite</label>
+            <label><input type="checkbox" class="juego-checkbox" value="Valorant" /> Valorant</label>
+            <label><input type="checkbox" class="juego-checkbox" value="League of Legends" /> LoL</label>
+            <label><input type="checkbox" class="juego-checkbox" value="Rocket League" /> Rocket League</label>
+            <label><input type="checkbox" class="juego-checkbox" value="Super Smash Bros" /> Smash Bros</label>
+          </div>
+          <p id="juegos-error" class="error"></p>
+        </label>
+
+        <label>Plataforma preferida:
+          <select id="plataforma" required>
+            <option value="">Seleccionar</option>
+            <option value="PC">PC</option>
+            <option value="Consola">Consola</option>
+            <option value="Móvil">Móvil</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Contenido Adicional</legend>
+
+        <label>Video de Presentación (opcional):
+          <input type="file" id="video" accept="video/mp4,video/webm">
+          <div id="preview-video"></div>
+        </label>
+
+        <label class="checkbox-wrap">
+            <input type="checkbox" id="novedades">
+            Quiero recibir novedades y noticias del torneo
+          </label>
+          
+          <label class="checkbox-wrap">
+            <input type="checkbox" id="acepto" required>
+            Acepto las reglas del torneo
+          </label>          
+      </fieldset>
+
+      <div class="botones">
+        <button type="submit" id="btn-enviar" disabled>🎮 Inscribirme</button>
+        <button type="reset" id="btn-borrar">Borrar</button>
+      </div>
+
+      <p id="contador">Inscripciones registradas: 0</p>
+    </form>
+  </main>
+</body>
+</html>
